@@ -1,0 +1,296 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  @media (min-width: 768px) and (max-width: 1024px) {
+            /* navbar */
+            #header .navbar-toggler{
+                background-color: white;
+            }
+            #header .nav-item{
+                margin-top: 20px;
+            }
+
+
+            /* navbar */
+            /* start of banner */
+            #banner .banner-form {
+                margin-left: 10px;
+            }
+            /* end of banner */
+            /* start of social */
+            #social  .sicon ul li{
+                margin-top: 20px;
+            }
+            /* end of social */
+            /* start of pricing */
+            #pricing .pcard2{
+                margin-top: 20px;
+            }
+            #pricing .pcard3{
+                margin-top: 20px;
+            }
+            /* end of pricing */
+            /* start of customer */
+            #customer .owl-carousel{
+                margin-left: 250px;
+                text-align: center;
+                align-self: center;
+                align-items: center;
+            }
+            /* end of customer */
+            /* start of contact */
+            #contact .cnbutton{
+                margin-top: 10px;
+            }
+            /* end of contact */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+    /* navbar */
+      #header .navbar-toggler{
+          background-color: white;
+      }
+      #header .nav-item{
+          margin-top: 20px;
+      }
+    
+
+    /* navbar */
+    /* banner */
+    #banner{
+        padding: 15px;
+        padding-bottom: 40px;
+    }
+    #banner .head h1{
+        text-align: center;
+        font-size: 55px;
+    
+    }
+    #banner .head span{
+        font-size: 55px;
+    
+    }
+    #banner .head h2{
+        text-align: center;
+        font-size: 36px;
+        line-height: 45px;
+    
+    }
+    #banner .head p{
+        text-align: center;
+        font-size: 16px;
+    
+    }
+    .banner-form {
+        text-align: center;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    #banner .head .divder{
+        margin: 0 auto;
+        
+    }
+    #banner .banbtn a {
+        margin-left: 105px;
+        margin-bottom: 20px;
+    }
+    
+
+
+
+    /* banner */
+    /* start of social */
+    #social{
+        padding: 15px;
+    }
+    #social  .sicon ul li i{
+        font-size: 30px;
+    }
+    #social  .sicon ul li{
+        margin-top: 20px;
+    }
+    /* end of social */
+    /* start of tabs */
+    #tabs {
+        padding: 15px;
+        background-color: #F5F5F5;
+        
+    }
+    #tabs .row{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #tabs .tablist{
+       margin-left: 100px;
+    }
+    #tabs .tcontent h1{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 25px;
+    }
+    #tabs .tcontent p{
+        text-align: center;
+    }
+    #tabs .tbtn {
+        margin-left: 100px;
+        padding-bottom: 30px;
+    }
+    /* end of tabs */
+    /* start of sub */
+    #sub {
+        padding: 15px;
+    }
+   
+    #sub .sheading h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    #sub .sdivider{
+        margin: 0 auto;
+    }
+    #sub .sheading p{
+        text-align: center;
+    }
+    #sub .sicon .fa-solid{
+        margin-bottom: 15px;
+    }
+    #sub .srow{
+        margin: 0 auto;
+        text-align: center;
+    }
+    #sub .srow1{
+        margin: 0 auto;
+        text-align: center;
+    }
+    /* end of sub */
+    /* start of standard */
+    #standard {
+        padding: 15px;
+    }
+    #standard .staheading h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #standard .standivider{
+        margin: 0 auto;
+    }
+    #standard .staheading p{
+        text-align: center;
+    }
+    /* end of standard */
+    /* start of awesome */
+    #awesome{
+        margin-top: 50px;
+        padding: 15px;
+    }
+    #awesome .aheading h1{
+        font-size: 25px;
+    }
+    #awesome .aicon .fa-regular{
+       margin-top: 15px;
+    }
+    #awesome .aicon .fa-solid{
+        margin-top: 15px;
+    }
+    /* end of awesome */
+    /* start of pricing */
+    #pricing{
+        padding: 15px;
+    }
+    #pricing .row{
+        padding-top: 50px;
+    }
+    #pricing .ptopheading h1{
+        margin-top: 20px;
+    }
+    #pricing .pcard2{
+        margin-top: 20px;
+    }
+    #pricing .pcard3{
+        margin-top: 20px;
+    }
+    /* end of pricing */
+    /* start of customer */
+    #customer {
+        padding: 15px;
+    }
+    #customer .stopheading h1{
+        font-size: 25px;
+        margin-top: 20px;
+
+    }
+    
+    /* end of customer */
+
+    /* start of stylish */
+    #stylish .styhead h1{
+        font-size: 27px;
+    }
+    #stylish .stpera h1{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    #stylish .stbutton{
+        margin-top: 20px;
+    }
+
+    /* end of stylish */
+    /* start of contact */
+    #contact .cnbutton{
+        margin-top: 20px;
+    }
+    /* end of contact */
+    /* start of ficon */
+    #ficon  .fiicon ul li i{
+        font-size: 25px;
+    }
+    /* end of ficon */
+
+} 

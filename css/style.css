@@ -1,0 +1,889 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* start of header */
+#header .navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#header .img1{
+    width: 50%;
+}
+#header .nav-link{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+    color: white;
+}
+#header .nav-link:hover{
+    color: #ff8b38;
+}
+
+#header .nav-item{
+    margin-left: 18px;
+    position: relative;
+}
+#header .nav-item::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 100%;
+    transform: scale(0,1);
+    height: 3px;
+    background-color: #ff8b38;
+    transition: 0.8s;
+}
+#header .nav-item:hover::after{
+    transform: scale(1,1);
+    transition: 0.8s;
+}
+
+/* start of header */
+/* start of banner */
+#banner{
+    background: url(../img/banner.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+#banner .row{
+    padding-top: 200px;
+}
+#banner .g-3{
+    padding-top: 0px;
+}
+#banner .head h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 75px;
+    line-height: 90px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+
+}
+#banner .head h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 25px;
+
+}
+#banner .head p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    padding-top: 30px;
+
+}
+#banner .head .divder{
+    width: 10%;
+    color: white;
+    border: 2px solid white;
+    
+}
+
+#banner .head span{
+    font-family: "Open Sans", sans-serif;
+    font-size: 75px;
+    line-height: 90px;
+    font-weight: lighter;
+    color: #ff8b38;
+
+}
+#banner .banner-form {
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+#banner .banner-form form .form-heading {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #333333;
+    background-color: #f5f5f5;
+    padding: 15px 0;
+}
+#banner .banner-form form .form-heading span {
+    color: #ff8b38;
+    text-transform: uppercase;
+}
+#banner .banner-form form input {
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #bdbdbd !important;
+    border-radius: 0;
+    color: #bdbdbd !important;
+    font-weight: 600;
+}
+.banner-form form button {
+    width: 100%;
+    border-radius: 0;
+    background-color: #ff9b51;
+    color: #ffffff;
+    padding: 15px 0;
+    margin-top: 20px;
+    transition-duration: 0.3s;
+}
+#banner .banbtn a{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+#banner .btn a:hover{
+    background-color: #ff9b51;
+}
+/* end of banner */
+/* start of social */
+#social{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #86878B ;
+}
+#social .stitle h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: bold;
+    color: black;
+}
+#social .stitle p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: lighter;
+    color: #86878B;
+}
+#social  .sicon ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+#social  .sicon ul li i{
+    font-size: 50px;
+    color: #CCCCCC;
+}
+#social  .sicon ul li i:hover{
+    color: #ff9b51;
+}
+/* end of social */
+/* start of tabs */
+#tabs{
+    background-color: #F5F5F5;
+    padding-bottom: 80px;
+}
+#tabs .row{
+    padding-top: 270px;
+}
+#tabs .timg img{
+    width: 100%;
+    
+
+}
+#tabs .tablist h1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 600;
+    color: white;
+}
+#tabs .tablist .tablist1{
+    width: 80%;
+    padding: 50px 0px ;
+    background-color:#ff9b51 ;
+}
+#tabs .tablist {
+    margin-right: 50px;
+}
+#tabs .tablist .tablist2{
+    width: 80%;
+    padding: 50px 0px ;
+    background-color:#333333 ;
+    border-bottom: 1px solid white;
+}
+
+#tabs .tablist .tablist3{
+    width: 80%;
+    padding: 50px 0px ;
+    background-color:#333333 ;
+}
+#tabs .tcontent h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 35px;
+}
+#tabs .tcontent p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #86878B;
+}
+#tabs .tbtn{
+    margin-top: 50px;
+}
+#tabs .tbtn a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 10px 20px;
+    background-color: #ff9b51
+}
+#tabs .tbtn a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+/* end of tabs */
+/* start of sub */
+#sub {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#sub  .simg img{
+    width: 100%;
+}
+#sub .sheading h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: black;
+}
+#sub .sheading p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #86878B;
+}
+
+#sub .sdivider{
+    position: relative;
+    border-bottom: 3px solid #ff8b38;
+    width: 10%;
+    padding-bottom: 20px;
+}
+#sub .sheading p{
+    padding-top: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #86878B;
+}
+#sub .sicon .fa-solid{
+    font-size: 25px;
+    color:#ff8b38 ;
+    border: 1px solid #ff8b38;
+    border-radius: 100%;
+    padding: 10px;
+}
+#sub .stheading h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 700;
+    color: black;
+}
+#sub .stheading p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #86878B;
+}
+#sub .srow{
+    padding-top: 50px;
+}
+#sub .srow1{
+    padding-top: 25px;
+}
+
+/* end of sub */
+/* start of standard */
+#standard{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F5F5F5;
+}
+
+#standard .staheading h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: black;
+}
+#standard .standivider{
+    border-bottom: 3px solid #ff8b38;
+    width: 10%;
+    padding-bottom: 20px;
+}
+
+#standard .staheading p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #86878B;
+}
+#standard .staheading .pera{
+    padding-top: 30px;
+}
+
+/* end of standard */
+/* start of awesome */
+#awesome{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* #awesome .col-lg-4{
+    width: 33.33%;
+} */
+#awesome .row {
+    padding-top: 40px;
+}
+#awesome .aheading h1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #86878B;
+}
+#awesome .aheading p{
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #86878B;
+}
+#awesome .aheading .adivider{
+    border-bottom: 3px solid #ff8b38;
+    width: 10%;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+#awesome .aicon .fa-regular{
+    font-size: 30px;
+    padding: 30px;
+    color: #ff8b38;
+    border: 1px solid #ff8b38 ;
+    border-radius: 100%;
+}
+#awesome .aicon .fa-regular:hover{
+    background-color: #ff8b38;
+    color: white;
+}
+
+#awesome .aicon .fa-solid{
+    font-size: 30px;
+    padding: 30px;
+    color: #ff8b38;
+    border: 1px solid #ff8b38 ;
+    border-radius: 100%;
+}
+#awesome .aicon .fa-solid:hover{
+    background-color: #ff8b38;
+    color: white;
+}
+#awesome .awell h1{
+    padding-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 700;
+    color: black;
+
+}
+#awesome .awell p{
+    padding-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #86878B;
+}
+/* end of awesome */
+/* start of pricing */
+#pricing{
+    background-color: #F5F5F5;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#pricing .row{
+    padding-top: 150px;
+}
+#pricing .ptopheading h1{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 600;
+    color: black;
+}
+#pricing .pdivider{
+    border-bottom: 3px solid #ff8b38;
+    width: 10%;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+#pricing .plowertitle p{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #86878B;
+}
+/* pcard1 */
+#pricing .pcard1:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+#pricing .pcard1 .ptophead{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+#pricing .pcard1 .ptophead h1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    color: white;
+}
+#pricing .pcard1 .pprice{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    border-bottom: 4px solid #ff8b38;
+}
+#pricing .pcard1 .pprice h1{
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    line-height: 15px;
+    font-weight: 800;
+    color: white;
+}
+
+#pricing .pcard1 .pprice sup{
+    font-family: "Open Sans", sans-serif;
+    font-size: 70px;
+    line-height: 15px;
+    font-weight: 800;
+    color: white;
+}
+#pricing .pcard1 .pprice p{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 900;
+    color: #86878B;
+}
+
+#pricing .pcard1 .pdes{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+#pricing .pcard1 .pdes h1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: black;
+}
+/* pcard1 */
+
+/* pcard2 */
+
+#pricing .pcard2{
+    margin-top: -76px;
+}
+#pricing .pcard2:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+#pricing .pcard2 .ptophead{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+#pricing .pcard2 .ptophead h1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    color: white;
+}
+#pricing .pcard2 .pprice{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    border-bottom: 4px solid #ff8b38;
+}
+#pricing .pcard2 .pprice h1{
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    line-height: 15px;
+    font-weight: 800;
+    color: white;
+}
+
+#pricing .pcard2 .pprice sup{
+    font-family: "Open Sans", sans-serif;
+    font-size: 70px;
+    line-height: 15px;
+    font-weight: 800;
+    color: white;
+}
+
+#pricing .pcard2 .ppopular{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #ff8b38;
+    border-bottom: 1px solid black;
+}
+#pricing .pcard2 .ppopular h1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    line-height: 15px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+}
+#pricing .pcard2 .pprice p{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 900;
+    color: #86878B;
+}
+#pricing .pcard2 .pdes{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+#pricing .pcard2 .pdes h1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: black;
+}
+/* pcard2 */
+
+/* pcard3 */
+#pricing .pcard3:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+#pricing .pcard3 .ptophead{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+#pricing .pcard3 .ptophead h1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    color: white;
+}
+#pricing .pcard3 .pprice{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    border-bottom: 4px solid #ff8b38;
+}
+#pricing .pcard3 .pprice h1{
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    line-height: 15px;
+    font-weight: 800;
+    color: white;
+}
+
+#pricing .pcard3 .pprice sup{
+    font-family: "Open Sans", sans-serif;
+    font-size: 70px;
+    line-height: 15px;
+    font-weight: 800;
+    color: white;
+}
+#pricing .pcard3 .pprice p{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 900;
+    color: #86878B;
+}
+#pricing .pcard3 .pdes{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+#pricing .pcard3 .pdes h1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #86878B;
+}
+/* pcard3 */
+/* end of pricing */
+/* start of customer */
+#customer{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#customer .stopheading h1{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 600;
+    color: black;
+}
+#customer .sdivider{
+    border-bottom: 3px solid #ff8b38;
+    width: 10%;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+#customer .slowertitle p{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #86878B;
+}
+#customer .item {
+    width: 60%;
+}
+#customer .item p{
+    margin-top: 30px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #86878B;
+    font-weight: 200;
+    background-color: #DEDEDE;
+    padding: 20px;
+
+}
+#customer .intro{
+    display: flex;
+    
+}
+#customer .intro img{
+    width: 55px;
+}
+#customer .deg h5{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    font-weight: 500;
+    margin-left: 20px;
+
+}
+/* end of customer */
+/* start of stylish */
+#stylish{
+    background: url(../img/banner.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#stylish .styhead h1{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 600;
+    color: white;
+}
+#stylish .stpera h1{
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 500;
+    color: #AAA9A7;
+}
+#stylish .stdivider{
+    border-bottom: 3px solid #ff8b38;
+    width: 10%;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+#stylish .stbutton{
+    margin: 0px auto;
+}
+#stylish .stbutton a{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+#stylish .stbutton a:hover{
+    background-color: #ff9b51;
+}
+/* end of stylish */
+
+/* start of contact */
+#contact{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#contact .row{
+    padding-top: 30px;
+}
+#contact .cnyhead h1{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 600;
+    color: black;
+}
+#contact .cnpera h1{
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #AAA9A7;
+}
+#contact .cndivider{
+    border-bottom: 3px solid #ff8b38;
+    width: 10%;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+#contact .cnlabel{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #AAA9A7;
+}
+#contact .cnlabel1{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #AAA9A7;
+}
+
+
+#contact .cnbutton{
+    margin: 0px auto;
+}
+#contact .cnbutton a{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #ff9b51;
+}
+#contact .cnbutton a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #ff9b51;
+}
+/* end of contact */
+/* start of ficon */
+#ficon {
+    background-color: black;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+#ficon  .fiicon ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+#ficon  .fiicon ul li i{
+    font-size: 30px;
+    color: white;
+}
+#ficon  .fiicon ul li i:hover{
+    color: #ff9b51;
+}
+#ficon .ffooter h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #AAA9A7;
+}
+/* end of ficon */
